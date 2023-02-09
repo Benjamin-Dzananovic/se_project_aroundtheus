@@ -1,6 +1,6 @@
 .gallery {
   padding: 0px;
-  margin: 0px 200px 0px 200px;
+  margin: 47px 200px 67px 200px;
 }
 
 .gallery__cards {
@@ -12,10 +12,10 @@
   margin: 72px 0px 0px 0px;
   list-style: none;
 }
-@media screen and (max-width: 660px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .gallery {
     padding: 0px;
-    margin: 0px auto 0 auto;
+    margin: 47px 200px 67px 200px;
     max-width: 880px;
   }
   .gallery__cards {
@@ -25,7 +25,7 @@
     margin: 36px auto 0px auto;
   }
 }
-@media screen and (min-width: 660px) and (max-width: 1279px) {
+@media screen and (min-width: 769px) and (max-width: 1279px) {
   .gallery__cards {
     grid-template-columns: repeat(2, min-content);
     justify-content: center;
