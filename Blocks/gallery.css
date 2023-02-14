@@ -1,7 +1,6 @@
 .gallery {
   padding: 0px;
-  margin: 47px auto 67px auto;
-  align-content: center;
+  margin: 47px 200px 67px 200px;
 }
 
 .gallery__cards {
@@ -10,7 +9,7 @@
   grid-gap: 20px 17px;
   justify-items: center;
   padding: 0px;
-  margin: 72px 0px 0px 0px;
+  margin: 0px;
   list-style: none;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -29,6 +28,6 @@
   .gallery__cards {
     margin: 47px 200px 67px 200px;
     grid-template-columns: min-content min-content;
-    align-items: center;
+    justify-items: center;
   }
 }
