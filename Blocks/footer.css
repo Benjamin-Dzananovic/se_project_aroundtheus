@@ -1,5 +1,6 @@
 .footer {
   margin: 67px 200px 60px 200px;
+  align-items: center;
 }
 .footer__copyright {
   font-family: "Inter", "Arial", sans-serif;

@@ -1,6 +1,7 @@
 .gallery {
   padding: 0px;
-  margin: 47px 200px 67px 200px;
+  margin: 47px auto 67px auto;
+  align-content: center;
 }
 
 .gallery__cards {
@@ -28,5 +29,6 @@
   .gallery__cards {
     margin: 47px 200px 67px 200px;
     grid-template-columns: min-content min-content;
+    align-items: center;
   }
 }
