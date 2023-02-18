@@ -1,6 +1,7 @@
 .profile {
   display: flex;
   margin: 0px 200px 0px 200px;
+  max-width: 880px;
 }
 .profile__image {
   width: 120px;

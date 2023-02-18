@@ -1,6 +1,7 @@
 .gallery {
   padding: 0px;
   margin: 0px 200px 0px 200px;
+  max-width: 880px;
 }
 
 .gallery__cards {
@@ -11,6 +12,7 @@
   padding: 0px;
   margin: 72px 0px 0px 0px;
   list-style: none;
+  max-width: 880px;
 }
 @media screen and (max-width: 660px) {
   .gallery {
